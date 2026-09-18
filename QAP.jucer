@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="hJjffC" name="QAP" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="ruhF6s" name="QAP">
+    <GROUP id="{96BFF954-215D-926F-77DB-E8AE648DEB8C}" name="Source">
+      <FILE id="gpyuxY" name="mn_tc11.onnx" compile="0" resource="1" file="Source/mn_tc11.onnx"/>
+      <FILE id="JmUi5n" name="model.onnx" compile="0" resource="1" file="Source/model.onnx"/>
+      <FILE id="wNSoCv" name="QuAPAssistant.png" compile="0" resource="1"
+            file="Source/QuAPAssistant.png"/>
+      <FILE id="NnQ50L" name="QuAPLogo.png" compile="0" resource="1" file="Source/QuAPLogo.png"/>
+      <FILE id="PFEmsc" name="AssistantSound.wav" compile="0" resource="1"
+            file="Source/AssistantSound.wav"/>
+      <FILE id="RFN3FZ" name="Rocket.cpp" compile="1" resource="0" file="Source/Rocket.cpp"/>
+      <FILE id="cX33Lb" name="Rocket.h" compile="0" resource="0" file="Source/Rocket.h"/>
+      <FILE id="eaIrm1" name="RocketImpl.cpp" compile="1" resource="0" file="Source/RocketImpl.cpp"/>
+      <FILE id="jg5MaP" name="RocketImpl.h" compile="0" resource="0" file="Source/RocketImpl.h"/>
+      <FILE id="ieglzT" name="Sources.h" compile="0" resource="0" file="Source/Sources.h"/>
+      <FILE id="vwSmah" name="Utils.h" compile="0" resource="0" file="Source/Utils.h"/>
+      <FILE id="oYsgwq" name="Definitions.h" compile="0" resource="0" file="Source/Definitions.h"/>
+      <FILE id="NM9lLS" name="Effects.h" compile="0" resource="0" file="Source/Effects.h"/>
+      <FILE id="a7TUn6" name="Envelopes.h" compile="0" resource="0" file="Source/Envelopes.h"/>
+      <FILE id="wl4Qq2" name="Explosion.cpp" compile="1" resource="0" file="Source/Explosion.cpp"/>
+      <FILE id="ojXu0E" name="Explosion.h" compile="0" resource="0" file="Source/Explosion.h"/>
+      <FILE id="LTljQ2" name="ExplosionImpl.cpp" compile="1" resource="0"
+            file="Source/ExplosionImpl.cpp"/>
+      <FILE id="dQSI5b" name="ExplosionImpl.h" compile="0" resource="0" file="Source/ExplosionImpl.h"/>
+      <FILE id="I9hpXt" name="Filters.h" compile="0" resource="0" file="Source/Filters.h"/>
+      <FILE id="plDrh3" name="Fire.cpp" compile="1" resource="0" file="Source/Fire.cpp"/>
+      <FILE id="y1OdAM" name="Fire.h" compile="0" resource="0" file="Source/Fire.h"/>
+      <FILE id="c8eiNq" name="FireImpl.cpp" compile="1" resource="0" file="Source/FireImpl.cpp"/>
+      <FILE id="a9Iw7y" name="FireImpl.h" compile="0" resource="0" file="Source/FireImpl.h"/>
+      <FILE id="Hwjwhg" name="Gun.cpp" compile="1" resource="0" file="Source/Gun.cpp"/>
+      <FILE id="VfAq5m" name="Gun.h" compile="0" resource="0" file="Source/Gun.h"/>
+      <FILE id="DiZ0cX" name="GunImpl.cpp" compile="1" resource="0" file="Source/GunImpl.cpp"/>
+      <FILE id="WOrkF2" name="GunImpl.h" compile="0" resource="0" file="Source/GunImpl.h"/>
+      <FILE id="As7c6s" name="Helicopter.cpp" compile="1" resource="0" file="Source/Helicopter.cpp"/>
+      <FILE id="kEb77q" name="Helicopter.h" compile="0" resource="0" file="Source/Helicopter.h"/>
+      <FILE id="UdJ4F5" name="HelicopterImpl.cpp" compile="1" resource="0"
+            file="Source/HelicopterImpl.cpp"/>
+      <FILE id="d5scSR" name="HelicopterImpl.h" compile="0" resource="0"
+            file="Source/HelicopterImpl.h"/>
+      <FILE id="KS11t3" name="Jet.cpp" compile="1" resource="0" file="Source/Jet.cpp"/>
+      <FILE id="UPQRxw" name="Jet.h" compile="0" resource="0" file="Source/Jet.h"/>
+      <FILE id="MZ7mQw" name="JetImpl.cpp" compile="1" resource="0" file="Source/JetImpl.cpp"/>
+      <FILE id="zHnmgD" name="JetImpl.h" compile="0" resource="0" file="Source/JetImpl.h"/>
+      <FILE id="U8i6c5" name="NemisindoLibrary.h" compile="0" resource="0"
+            file="Source/NemisindoLibrary.h"/>
+      <FILE id="udh71j" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="O1VIQd" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="j2Iynk" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="jexguq" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" externalLibraries="faiss&#10;onnxruntime"
+               postbuildCommand="#!/bin/bash&#10;&#10;# Only run for standalone plugin builds&#10;if [[ &quot;$PRODUCT_NAME&quot; != *&quot;Standalone&quot;* ]] &amp;&amp; [[ ! -d &quot;$TARGET_BUILD_DIR/$PRODUCT_NAME.app&quot; ]]; then&#10;    echo &quot;Skipping library bundling for non-standalone target&quot;&#10;    exit 0&#10;fi&#10;&#10;APP_PATH=&quot;$TARGET_BUILD_DIR/$PRODUCT_NAME.app&quot;&#10;FRAMEWORKS_DIR=&quot;$APP_PATH/Contents/Frameworks&quot;&#10;EXECUTABLE=&quot;$APP_PATH/Contents/MacOS/$PRODUCT_NAME&quot;&#10;PROCESSED_FILE=&quot;/tmp/processed_libs_$$.txt&quot;&#10;&#10;# Exit if the executable doesn't exist yet&#10;if [ ! -f &quot;$EXECUTABLE&quot; ]; then&#10;    echo &quot;Executable not found, skipping library bundling&quot;&#10;    exit 0&#10;fi&#10;&#10;echo &quot;===== QAP Post-Build: Bundling Libraries =====&quot;&#10;mkdir -p &quot;$FRAMEWORKS_DIR&quot;&#10;&#10;# Copy libraries recursively&#10;copy_lib_and_deps() {&#10;    local lib_path=$1&#10;    local lib_name=$(basename &quot;$lib_path&quot;)&#10;    &#10;    if grep -q &quot;&#94;${lib_path}$&quot; &quot;$PROCESSED_FILE&quot; 2&gt;/dev/null; then&#10;        return&#10;    fi&#10;    echo &quot;$lib_path&quot; &gt;&gt; &quot;$PROCESSED_FILE&quot;&#10;    &#10;    # Skip system libraries&#10;    if [[ &quot;$lib_path&quot; == /usr/lib/* ]] || [[ &quot;$lib_path&quot; == /System/* ]]; then&#10;        return&#10;    fi&#10;    &#10;    # Only process homebrew OR faiss_built libraries&#10;    if [[ &quot;$lib_path&quot; != /opt/homebrew/* ]] &amp;&amp; [[ &quot;$lib_path&quot; != /Users/nellygarcia/faiss_built/* ]]; then&#10;        return&#10;    fi&#10;    &#10;    if [[ -f &quot;$lib_path&quot; ]]; then&#10;        echo &quot;  Copying $(basename $lib_path)...&quot;&#10;        cp &quot;$lib_path&quot; &quot;$FRAMEWORKS_DIR/&quot; 2&gt;/dev/null&#10;        &#10;        # Check homebrew deps&#10;        otool -L &quot;$lib_path&quot; 2&gt;/dev/null | grep &quot;/opt/homebrew&quot; | awk '{print $1}' | while read dep; do&#10;            [[ &quot;$dep&quot; != &quot;$lib_path&quot; ]] &amp;&amp; copy_lib_and_deps &quot;$dep&quot;&#10;        done&#10;        &#10;        # Check faiss_built deps&#10;        otool -L &quot;$lib_path&quot; 2&gt;/dev/null | grep &quot;/Users/nellygarcia/faiss_built&quot; | awk '{print $1}' | while read dep; do&#10;            [[ &quot;$dep&quot; != &quot;$lib_path&quot; ]] &amp;&amp; copy_lib_and_deps &quot;$dep&quot;&#10;        done&#10;    fi&#10;}&#10;&#10;# Copy all dependencies&#10;&gt; &quot;$PROCESSED_FILE&quot;&#10;&#10;# From executable - homebrew paths&#10;otool -L &quot;$EXECUTABLE&quot; | grep &quot;/opt/homebrew&quot; | awk '{print $1}' | while read lib; do&#10;    copy_lib_and_deps &quot;$lib&quot;&#10;done&#10;&#10;# From executable - faiss_built paths&#10;otool -L &quot;$EXECUTABLE&quot; | grep &quot;/Users/nellygarcia/faiss_built&quot; | awk '{print $1}' | while read lib; do&#10;    copy_lib_and_deps &quot;$lib&quot;&#10;done&#10;&#10;# Copy libgcc_s.1.1.dylib (needed by libgfortran)&#10;if [ ! -f &quot;$FRAMEWORKS_DIR/libgcc_s.1.1.dylib&quot; ]; then&#10;    GCC_LIB=$(find /opt/homebrew/Cellar/gcc -name &quot;libgcc_s.1.1.dylib&quot; 2&gt;/dev/null | head -1)&#10;    if [ -f &quot;$GCC_LIB&quot; ]; then&#10;        cp &quot;$GCC_LIB&quot; &quot;$FRAMEWORKS_DIR/&quot;&#10;        echo &quot;  &#10003; Copied libgcc_s.1.1.dylib&quot;&#10;    fi&#10;fi&#10;&#10;# Make all libraries writable&#10;chmod -R u+w &quot;$FRAMEWORKS_DIR&quot; 2&gt;/dev/null&#10;&#10;# Fix install names in executable - homebrew&#10;otool -L &quot;$EXECUTABLE&quot; | grep &quot;/opt/homebrew&quot; | awk '{print $1}' | while read lib_path; do&#10;    lib_name=$(basename &quot;$lib_path&quot;)&#10;    install_name_tool -change &quot;$lib_path&quot; &quot;@executable_path/../Frameworks/$lib_name&quot; &quot;$EXECUTABLE&quot; 2&gt;/dev/null&#10;done&#10;&#10;# Fix install names in executable - faiss_built&#10;otool -L &quot;$EXECUTABLE&quot; | grep &quot;/Users/nellygarcia/faiss_built&quot; | awk '{print $1}' | while read lib_path; do&#10;    lib_name=$(basename &quot;$lib_path&quot;)&#10;    install_name_tool -change &quot;$lib_path&quot; &quot;@executable_path/../Frameworks/$lib_name&quot; &quot;$EXECUTABLE&quot; 2&gt;/dev/null&#10;done&#10;&#10;# Fix install names in all libraries&#10;for dylib in &quot;$FRAMEWORKS_DIR&quot;/*.dylib; do&#10;    [ ! -f &quot;$dylib&quot; ] &amp;&amp; continue&#10;    lib_name=$(basename &quot;$dylib&quot;)&#10;    &#10;    # Fix the library's own ID&#10;    install_name_tool -id &quot;@executable_path/../Frameworks/$lib_name&quot; &quot;$dylib&quot; 2&gt;/dev/null&#10;    &#10;    # Fix homebrew dependencies&#10;    otool -L &quot;$dylib&quot; | grep &quot;/opt/homebrew&quot; | awk '{print $1}' | while read dep_path; do&#10;        dep_name=$(basename &quot;$dep_path&quot;)&#10;        install_name_tool -change &quot;$dep_path&quot; &quot;@executable_path/../Frameworks/$dep_name&quot; &quot;$dylib&quot; 2&gt;/dev/null&#10;    done&#10;    &#10;    # Fix faiss_built dependencies&#10;    otool -L &quot;$dylib&quot; | grep &quot;/Users/nellygarcia/faiss_built&quot; | awk '{print $1}' | while read dep_path; do&#10;        dep_name=$(basename &quot;$dep_path&quot;)&#10;        install_name_tool -change &quot;$dep_path&quot; &quot;@executable_path/../Frameworks/$dep_name&quot; &quot;$dylib&quot; 2&gt;/dev/null&#10;    done&#10;    &#10;    # Fix @rpath references (like libgcc_s)&#10;    otool -L &quot;$dylib&quot; | grep &quot;@rpath&quot; | awk '{print $1}' | while read rpath_lib; do&#10;        lib_name_only=$(basename &quot;$rpath_lib&quot;)&#10;        install_name_tool -change &quot;$rpath_lib&quot; &quot;@executable_path/../Frameworks/$lib_name_only&quot; &quot;$dylib&quot; 2&gt;/dev/null&#10;    done&#10;done&#10;&#10;rm -f &quot;$PROCESSED_FILE&quot;&#10;echo &quot;&#10003; Libraries bundled: $(ls -1 &quot;$FRAMEWORKS_DIR&quot; 2&gt;/dev/null | wc -l)&quot;&#10;&#10;# Re-sign the app&#10;echo &quot;Re-signing app bundle...&quot;&#10;for dylib in &quot;$FRAMEWORKS_DIR&quot;/*.dylib; do&#10;    [ ! -f &quot;$dylib&quot; ] &amp;&amp; continue&#10;    codesign --force --sign - &quot;$dylib&quot; 2&gt;/dev/null&#10;done&#10;codesign --force --sign - &quot;$EXECUTABLE&quot; 2&gt;/dev/null&#10;codesign --force --deep --sign - &quot;$APP_PATH&quot; 2&gt;/dev/null&#10;&#10;echo &quot;&#10003; Post-build complete!&quot;"
+               xcodeValidArchs="arm64,arm64e,i386,x86_64" extraLinkerFlags="-Wl,-rpath,/Users/nellygarcia/faiss_built/lib">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="QAP" customXcodeFlags="LD_RUNPATH_SEARCH_PATHS=&quot;@loader_path/../Frameworks @loader_path/.&quot;"
+                       headerPath="/Users/nellygarcia/faiss_built/include&#10;/opt/homebrew/include/onnxruntime&#10;/opt/homebrew/include&#10;/usr/local/include"
+                       libraryPath="/Users/nellygarcia/faiss_built/lib&#10;/opt/homebrew/include/onnxruntime&#10;/usr/local/lib"/>
+        <CONFIGURATION isDebug="1" name="Release" targetName="QAP" headerPath="/Users/nellygarcia/faiss_built/include&#10;/opt/homebrew/include/onnxruntime&#10;/opt/homebrew/include&#10;/usr/local/include"
+                       libraryPath="/Users/nellygarcia/faiss_built/lib&#10;/opt/homebrew/lib&#10;/opt/homebrew/opt/onnxruntime/lib&#10;/usr/local/lib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2022 targetFolder="Builds/VisualStudio2022" externalLibraries="faiss&#10;onnxruntime">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="C:\vcpkg\installed\x64-windows\include&#10;C:\vcpkg\installed\x64-windows\include\faiss"
+                       libraryPath="C:\vcpkg\installed\x64-windows\lib"/>
+        <CONFIGURATION isDebug="0" name="Release" libraryPath="C:\vcpkg\installed\x64-windows\lib"
+                       headerPath="C:\vcpkg\installed\x64-windows\include&#10;C:\vcpkg\installed\x64-windows\include\faiss"
+                       winArchitecture="Win32,x64"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="C:\vcpkg\installed\x64-windows\include&#10;C:\vcpkg\installed\x64-windows\include\faiss"
+                       libraryPath="C:\vcpkg\installed\x64-windows\lib"/>
+        <CONFIGURATION isDebug="0" name="Release" libraryPath="C:\vcpkg\installed\x64-windows\lib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
