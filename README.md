@@ -97,6 +97,10 @@ a cognitive walkthrough and thematic analysis:
   year={2026}
 }
 ```
+## Procedural Audio Models
+
+The procedural audio models used in QuAP were developed in collaboration with [Nemisindo](https://www.nemisindo.com) and are 
+not included in this repository. To build the full version of QuAP, please contact nellyvags@gmail.com for access to the models.
 
 ## License
 
